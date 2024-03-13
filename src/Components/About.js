@@ -16,12 +16,30 @@ class About extends Component {
     render(){
         return (
             <div className="about">
-                <h4>About Me <br /><img src={uderline} alt="uderline"/></h4>
-                <p className='justify'>
-                    Lorem ipsum dolor sit amet consectetur. Donec nam cursus vel lectus cras risus viverra sed
-                    dignissim. Ultrices fermentum nibh duis ullamcorper et interdum aliquet et. Pharetra non eget diam
-                    amet nisi. Turpis duis venenatis nam potenti mattis.
-                </p>
+                <h4>About Me<img src={uderline} alt="uderline"/></h4>
+                <div className="row">
+                    <div className="col-md-6">
+                        <p className='text-justify'>
+                            Lorem ipsum dolor sit amet consectetur. Donec nam cursus vel lectus cras risus viverra sed
+                            dignissim. Ultrices fermentum nibh duis ullamcorper et interdum aliquet et. Pharetra non eget diam
+                            amet nisi. Turpis duis venenatis nam potenti mattis.
+                            Lorem ipsum dolor sit amet consectetur. Donec nam cursus vel lectus cras risus viverra sed
+                            dignissim. Ultrices fermentum nibh duis ullamcorper et interdum aliquet et. Pharetra non eget diam
+                            amet nisi. Turpis duis venenatis nam potenti mattis
+                        </p>
+                    </div>
+                    <div className="col-md-6">
+                        <p className='text-justify'>
+                            Lorem ipsum dolor sit amet consectetur. Donec nam cursus vel lectus cras risus viverra sed
+                            dignissim. Ultrices fermentum nibh duis ullamcorper et interdum aliquet et. Pharetra non eget diam
+                            amet nisi. Turpis duis venenatis nam potenti mattis.
+                            Lorem ipsum dolor sit amet consectetur. Donec nam cursus vel lectus cras risus viverra sed
+                            dignissim. Ultrices fermentum nibh duis ullamcorper et interdum aliquet et. Pharetra non eget diam
+                            amet nisi. Turpis duis venenatis nam potenti mattis
+                        </p>
+                    </div>
+                </div>
+                
 
                 <div id="technos">
                     <img src={pythonlogo} alt="python"/>
@@ -33,7 +51,6 @@ class About extends Component {
                     <img src={jslogo} alt="js"/>
                     <img src={htmlogo} alt="html"/>
                     <img src={csslogo} alt="css"/>
-                    
                 </div>
 
             </div>
