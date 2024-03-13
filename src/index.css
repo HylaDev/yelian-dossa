@@ -1,3 +1,14 @@
+:root {
+  --body_background: #fff;
+  --body-color: #070707;
+  --link-color: navy;
+}
+[data-theme="dark"] {
+  background:#282c34;
+color: #fff;
+  --link-color: cyan;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

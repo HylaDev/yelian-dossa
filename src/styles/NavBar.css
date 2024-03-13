@@ -1,0 +1,9 @@
+:root {
+    --gray-color: #6e6e6e;
+    --dark-color: #070707;
+    --white-color: #fff;
+  }
+
+#navbarNav a{
+    color: var(--dark-color);
+}

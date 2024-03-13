@@ -1,10 +1,10 @@
 import React, { Component} from 'react';
 
-class Projects extends Component {
+class Contact extends Component {
     render(){
         return (
             <></>
         )
     }
 }
-export default Projects;
+export default Contact;

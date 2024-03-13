@@ -1,0 +1,17 @@
+.about{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+#technos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+img{
+    padding: 2%;
+}
+
