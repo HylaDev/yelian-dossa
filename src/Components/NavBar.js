@@ -3,7 +3,6 @@ import '../styles/NavBar.css';
 import '../styles/NavBar.css';
 import logo from '../Images/logo.svg';
 import {FaMoon} from 'react-icons/fa';
-import DarkMode from '../Components/DarkMode';
 class NavBar extends Component {
     render(){
         return (
