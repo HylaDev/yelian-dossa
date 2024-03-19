@@ -16,7 +16,10 @@ class About extends Component {
     render(){
         return (
             <div className="about">
-                <h4>About Me<img src={uderline} alt="uderline"/></h4>
+                <div className="d-flex justify-content-center align-items-center">
+                <h4 className=''>About Me <br /><img src={uderline} alt="uderline"/></h4>
+                </div>
+                
                 <div className="row">
                     <div className="col-md-6">
                         <p className='text-justify'>
@@ -35,7 +38,7 @@ class About extends Component {
                             amet nisi. Turpis duis venenatis nam potenti mattis.
                             Lorem ipsum dolor sit amet consectetur. Donec nam cursus vel lectus cras risus viverra sed
                             dignissim. Ultrices fermentum nibh duis ullamcorper et interdum aliquet et. Pharetra non eget diam
-                            amet nisi. Turpis duis venenatis nam potenti mattis
+                            amet nisi. <code>Turpis duis venenatis nam potenti mattis</code>
                         </p>
                     </div>
                 </div>

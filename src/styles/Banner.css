@@ -9,6 +9,7 @@
 .text-gray{
     color: var(--gray-color);
 }
+
 .text-left{
     text-align: left !important;
 }
@@ -35,6 +36,19 @@
     background-color: var(--gray-color);
     color: var(--white-color);
 }
-#row .d-grid{
-    display: grid;
+#row .icons{
+    margin-top: 20%;
+}
+
+#row .icon{
+    font-size: 30px;
+}
+#row .bar{
+    border-top: none;
+    border-bottom: none;
+    border-right: #070707 solid 3px;
+    height: 29%;
+    margin-top: 22%;
+    top: 0;
+    border-left: none;
 }
