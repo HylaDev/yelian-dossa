@@ -8,13 +8,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px;
+    padding: 18px;
     flex-wrap: wrap;
 }
-img{
+#technos img{
     margin: 10px;
 }
-img:hover{
+#technos img:hover{
     transform: scale(.9);
 }
 

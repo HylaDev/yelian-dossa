@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <Banner />
+        <Banner react='React' django ='Django' python = 'Python'/>
         <About />
         <Experience />
     </div>

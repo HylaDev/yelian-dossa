@@ -5,7 +5,9 @@
     --dark-color: #070707;
     --white-color: #fff;
   }
-
+#banner{
+    margin: 5%;
+}
 .text-gray{
     color: var(--gray-color);
 }
@@ -36,17 +38,26 @@
     background-color: var(--gray-color);
     color: var(--white-color);
 }
+
 #row .icons{
     margin-top: 20%;
 }
 
 #row .icon{
     font-size: 30px;
+    
+}
+#row a{
+    text-decoration: none;
+    color: var(--gray-color);
+}
+#row a:hover{
+    color: var(--dark-color);
 }
 #row .bar{
     border-top: none;
     border-bottom: none;
-    border-right: #070707 solid 3px;
+    border-right: var(--dark-color) solid 3px;
     height: 29%;
     margin-top: 22%;
     top: 0;
