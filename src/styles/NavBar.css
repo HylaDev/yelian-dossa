@@ -6,4 +6,11 @@
 
 #navbarNav a{
     color: var(--dark-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar{
+  margin-bottom: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
 }

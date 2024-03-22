@@ -6,7 +6,7 @@ import {FaMoon} from 'react-icons/fa';
 class NavBar extends Component {
     render(){
         return (
-            <nav className="navbar navbar-expand-lg navbar-light">
+            <nav className="navbar navbar-expand-lg fixed-top navbar-light">
                 <a className="navbar-brand ml-5" href="home"><img src={logo} alt="My logo"/></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -14,10 +14,10 @@ class NavBar extends Component {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="home">Home</a>
+                            <a className="nav-link" href="#home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="about">About Me</a>
+                            <a className="nav-link" href="#about">What's about me ?</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="Services">My Services</a>
