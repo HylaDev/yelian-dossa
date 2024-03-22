@@ -24,7 +24,7 @@ class About extends Component {
                     <div className="col-md-6">
                         <p className='text-justify'>
                             <Typewriter options={{
-                                strings: ["I define myself as a Full Stack developer, but I'm much more back-end oriented. My mission is to turn challenges into opportunities, with a love for code, I specialize in creating engaging web applications. I'm also passionate about artificial intelligence and data analysis. "],
+                                strings: ["I define myself as a full stack developer, but I'm much more back-end oriented. My mission is to turn challenges into opportunities, with a love for code, I specialize in creating engaging web applications. I'm also passionate about artificial intelligence and data analysis. "],
                                 autoStart: true,
                                 loop:true,
                                 delay:50,

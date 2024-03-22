@@ -1,0 +1,27 @@
+:root {
+    --gray-color: #6e6e6e;
+    --dark-color: #070707;
+    --white-color: #fff;
+  }
+
+#footer{
+    background-color: var(--dark-color);
+    padding: 1%;
+    color: #fff;
+    text-align: center;
+}
+#footer .icon{
+    font-size: 26px;
+
+}
+#footer a{
+    color: var(--gray-color);
+}
+#footer a:hover{
+    color: var(--white-color);   
+}
+
+#footer .heart{
+    font-size: 20px;
+    font-weight: 800;
+}

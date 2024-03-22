@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Banner.css';
 import myPic from '../Images/ernest.jpg';
-import {FaTwitter, FaLinkedinIn, FaGithub} from 'react-icons/fa';
+import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import Typewriter from 'typewriter-effect';
 
 
@@ -12,9 +12,8 @@ const Banner = (props) =>{
                     <div className="row" id="row">
                         <div className="col-md-7 d-flex">
                             <div className=" d-flex flex-column icons">
-                                <span className='icon'><a href=''><FaLinkedinIn /></a></span>
-                                <span className='icon my-2'><a href=''><FaGithub /></a></span>
-                                <span className='icon '><a href=''><FaTwitter /></a></span>
+                                <span className='icon'><a href='https://www.linkedin.com/in/y%C3%A9lian-ernest-dossa/' target='blank'><FaLinkedinIn /></a></span>
+                                <span className='icon my-2'><a href='https://github.com/HylaDev' target='blank'><FaGithub /></a></span>
                             </div>
                             <div className='bar mx-3'></div>
                             <div className="welcome-text" id="welcome-text">
@@ -25,11 +24,11 @@ const Banner = (props) =>{
                                     I am a fullstack developper with {props.react}, {props.django} and {props.python}<br/>
                                     <Typewriter
                                         options={{
-                                            strings: ["I'm specialize in web and mobile developpement"],
+                                            strings: ["I'm specialize in web applications developpement. "],
                                             autoStart: true,
                                             delay: 50,
                                             loop: true,
-                                            deleteSpeed:300000
+                                            deleteSpeed:30000
                                             
                                         }}
                                     />
