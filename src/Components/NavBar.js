@@ -2,7 +2,7 @@ import React, { Component} from 'react';
 import '../styles/NavBar.css';
 import '../styles/NavBar.css';
 import logo from '../Images/logo.svg';
-import {FaMoon} from 'react-icons/fa';
+import {FaMoon, FaEnvelope} from 'react-icons/fa';
 class NavBar extends Component {
     render(){
         return (
@@ -28,7 +28,7 @@ class NavBar extends Component {
                     </ul>
                     <ul className="navbar-nav ms-auto mr-5">
                         <li className="nav-item">
-                            <a className="nav-link btn ml-5" href="home"><FaMoon /></a>
+                            <a className="nav-link btn ml-5" href="home"><FaEnvelope /></a>
                         </li>
                     </ul>
                     {/* 
