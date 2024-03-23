@@ -2,7 +2,7 @@ import React, { Component} from 'react';
 import '../styles/NavBar.css';
 import '../styles/NavBar.css';
 import logo from '../Images/logo.svg';
-import {FaMoon, FaEnvelope} from 'react-icons/fa';
+import {FaEnvelope} from 'react-icons/fa';
 class NavBar extends Component {
     render(){
         return (
