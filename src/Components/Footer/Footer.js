@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import '../styles/Footer.css';
+import './Footer.css';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 
 class Footer extends Component {

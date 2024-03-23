@@ -1,11 +1,11 @@
 import React, { Component} from 'react';
-import underlineB from '../Images/Double traits_noir.svg';
-import '../styles/experience.css';
+import underlineB from '../../Images/Double traits_noir.svg';
+import './experience.css';
 
 class Experience extends Component {
     render(){
         return (
-            <div className="experience p-4 ">
+            <div id='experience' className="experience p-4 ">
                 <div className="d-flex justify-content-center align-items-center">
                     <h4>My Experiences<br /><img className='text-center' src={underlineB} alt="uderline"/></h4>
                 </div>

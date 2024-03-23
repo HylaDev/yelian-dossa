@@ -1,16 +1,16 @@
 import React, { Component} from 'react';
-import uderline from '../Images/Double traits_blanc.svg';
-import pythonlogo from '../Images/technos/logos_python.svg';
-import reactlogo from '../Images/technos/vscode-icons_file-type-reactjs.svg';
-import laravellogo from '../Images/technos/skill-icons_laravel-dark.svg';
-import djangologo from '../Images/technos/vscode-icons_file-type-django.svg';
-import githublogo from '../Images/technos/mdi_github.svg';
-import btlogo from '../Images/technos/skill-icons_bootstrap.svg';
-import jslogo from '../Images/technos/logos_javascript.svg';
-import htmlogo from '../Images/technos/html5.svg';
-import csslogo from '../Images/technos/css3.svg';
+import uderline from '../../Images/Double traits_blanc.svg';
+import pythonlogo from '../../Images/technos/logos_python.svg';
+import reactlogo from '../../Images/technos/vscode-icons_file-type-reactjs.svg';
+import laravellogo from '../../Images/technos/skill-icons_laravel-dark.svg';
+import djangologo from '../../Images/technos/vscode-icons_file-type-django.svg';
+import githublogo from '../../Images/technos/mdi_github.svg';
+import btlogo from '../../Images/technos/skill-icons_bootstrap.svg';
+import jslogo from '../../Images/technos/logos_javascript.svg';
+import htmlogo from '../../Images/technos/html5.svg';
+import csslogo from '../../Images/technos/css3.svg';
 import Marquee from "react-fast-marquee";
-import '../styles/About.css';
+import './About.css';
 import Typewriter from 'typewriter-effect';
 class About extends Component {
     render(){

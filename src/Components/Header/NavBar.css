@@ -5,7 +5,7 @@
   }
 
 #navbarNav a{
-    color: var(--dark-color);
+    color: var(--gray-color);
     font-size: 20px;
     font-weight: 600;
 }

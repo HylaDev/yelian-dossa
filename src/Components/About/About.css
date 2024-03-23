@@ -1,6 +1,12 @@
+:root {
+    --gray-color: #6e6e6e;
+    --dark-color: #070707;
+    --white-color: #fff;
+  }
+
 .about{
-    background-color: #000;
-    color: #fff;
+    background-color: var(--dark-color);
+    color: var(--white-color);
     padding: 30px;
 }
 

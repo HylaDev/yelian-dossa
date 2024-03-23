@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/Banner.css';
-import myPic from '../Images/ernest.jpg';
+import './Banner.css';
+import myPic from '../../Images/ernest.jpg';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import Typewriter from 'typewriter-effect';
 
