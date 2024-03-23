@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
-import '../styles/NavBar.css';
-import '../styles/NavBar.css';
-import logo from '../Images/logo.svg';
+import './NavBar.css';
+import './NavBar.css';
+import logo from '../../Images/logo.svg';
 import {FaEnvelope} from 'react-icons/fa';
 class NavBar extends Component {
     render(){
@@ -13,17 +13,19 @@ class NavBar extends Component {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mx-auto">
+                        
                         <li className="nav-item">
-                            <a className="nav-link" href="#home">Home</a>
+                            <a className="nav-link" href="#about">About me </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">What's about me ?</a>
+                            <a className="nav-link" href="#experience">My experiences</a>
+                        </li>
+                        
+                        <li className="nav-item">
+                            <a className="nav-link" href="#projects">Recent projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="Services">My Services</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="Project">Recent Projects</a>
+                            <a className="nav-link" href="#certifications">My certifications</a>
                         </li>
                     </ul>
                     <ul className="navbar-nav ms-auto mr-5">
