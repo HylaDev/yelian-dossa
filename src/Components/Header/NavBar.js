@@ -22,11 +22,12 @@ class NavBar extends Component {
                         </li>
                         
                         <li className="nav-item">
-                            <a className="nav-link" href="#projects">Recent projects</a>
+                            <a className="nav-link" href="#projects">Recents projects</a>
                         </li>
+                        {/*
                         <li className="nav-item">
                             <a className="nav-link" href="#certifications">My certifications</a>
-                        </li>
+                        </li>*/}
                     </ul>
                     <ul className="navbar-nav ms-auto mr-5">
                         <li className="nav-item">

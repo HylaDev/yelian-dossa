@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^4.3.1",
     "framer-motion": "^11.0.20",
+    "nodemailer": "^6.9.13",
     "react": "^18.2.0",
     "react-animated-cursor": "^2.11.2",
     "react-dom": "^18.2.0",
@@ -17,6 +18,7 @@
     "react-router-dom": "^6.2.2",
     "react-scripts": "^5.0.1",
     "react-simple-typewriter": "^5.0.1",
+    "stream": "^0.0.2",
     "styled-components": "^6.1.1",
     "typewriter-effect": "^2.21.0",
     "web-vitals": "^2.1.4"

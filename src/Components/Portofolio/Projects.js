@@ -10,10 +10,10 @@ class Projects extends Component {
         return (
             <div id='projects' className='container-fluid'>
                 <div className="d-flex justify-content-center align-items-center mb-4">
-                    <h4>Recent projects<br /><img className='text-center' src={underlineB} alt="uderline"/></h4>
+                    <h4>Projects i work on<br /><img className='text-center' src={underlineB} alt="uderline"/></h4>
                 </div>
                 <div className='row'>
-                    <div className='col-md-4 my-2 cards'>
+                    <div className='col-md-4 my-2 cards p-1'>
                         <a href='https://www.yieldy.fr/' target='blank' title='Cliquer ici'>
                         <div className="card">
                             <img src={yieldy} className="card-img-top" alt="..." />
@@ -26,8 +26,15 @@ class Projects extends Component {
                             </div>
                         </div>
                         </a>
+                        {/*
+                        <div id="technos">
+                            <img src={pythonlogo} alt="python"/>
+                            <img src={reactlogo} alt="react js"/>
+                            <img src={djangologo} alt="django"/>
+                            <img src={githublogo} alt="github"/>
+                        </div>*/}
                     </div>
-                    <div className='col-md-4 my-2 cards'>
+                    <div className='col-md-4 my-2 cards p-1 '>
                         <a href='http://ayikan.com/' target='blank'>
                             <div className="card">
                                 <img src={ayikan} className="card-img-top" alt="..." />
@@ -39,9 +46,16 @@ class Projects extends Component {
                                 </div>
                             </div>
                         </a>
+                        {/*
+                        <div id="technos">
+                            <img src={pythonlogo} alt="python"/>
+                            <img src={reactlogo} alt="react js"/>
+                            <img src={djangologo} alt="django"/>
+                            <img src={githublogo} alt="github"/>
+                        </div>*/}
                     </div>
                     
-                    <div className='col-md-4 my-2 cards'>
+                    <div className='col-md-4 my-2 cards p-1'>
                         <a href='https://gotalentsport.netlify.app/' className='cards'>
                             <div className="card overflow-scroll">
                                 <img src={sport} className="card-img-top" alt="..." />
@@ -53,6 +67,13 @@ class Projects extends Component {
                                 </div>
                             </div>
                         </a>
+                        {/*
+                        <div id="technos">
+                            <img src={pythonlogo} alt="python"/>
+                            <img src={reactlogo} alt="react js"/>
+                            <img src={djangologo} alt="django"/>
+                            <img src={githublogo} alt="github"/>
+                        </div>*/}
                     </div>
                 </div>
                 

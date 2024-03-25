@@ -1,0 +1,45 @@
+:root {
+    --gray-color: #6e6e6e;
+    --dark-color: #070707;
+    --white-color: #fff;
+  }
+  #contact {
+    padding: 3%;
+  }
+#contact .info {
+    border-top: 3px solid var(--gray-color);
+    border-bottom: 3px solid var(--gray-color);
+    padding: 30px;
+    background: var(--white-color);
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+#contact .contact-form{
+    border-top: 3px solid var(--gray-color);
+    border-bottom: 3px solid var(--gray-color);
+    padding: 30px;
+    background: var(--white-color);
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  }
+
+#contact .btn-secondary{
+    background-color: var(--gray-color);
+    color: var(--white-color);
+    width: 100%;
+}
+#contact .btn-secondary:hover{
+    background-color: var(--white-color);
+    color: var(--gray-color);
+    width: 100%;
+}
+#contact a {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-size: 30px;
+}
+#contact .d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
