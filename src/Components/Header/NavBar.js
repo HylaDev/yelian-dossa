@@ -31,7 +31,7 @@ class NavBar extends Component {
                     </ul>
                     <ul className="navbar-nav ms-auto mr-5">
                         <li className="nav-item">
-                            <a className="nav-link btn ml-5" href="home"><FaEnvelope /></a>
+                            <a className="nav-link btn ml-5" href="#contact" target='blank'><FaEnvelope /></a>
                         </li>
                     </ul>
                     {/* 
