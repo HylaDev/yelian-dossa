@@ -24,7 +24,7 @@ const Banner = (props) =>{
                                     I am a fullstack developper with {props.react}, {props.django} and {props.python}<br/>
                                     <Typewriter
                                         options={{
-                                            strings: ["I'm specialize in web applications developpement. "],
+                                            strings: ["I'm specialize in web applications developpement. I'm "],
                                             autoStart: true,
                                             delay: 50,
                                             loop: true,

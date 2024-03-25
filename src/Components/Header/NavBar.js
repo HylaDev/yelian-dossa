@@ -7,7 +7,7 @@ class NavBar extends Component {
     render(){
         return (
             <nav className="navbar navbar-expand-lg fixed-top navbar-light">
-                <a className="navbar-brand ml-5" href="home"><img src={logo} alt="My logo"/></a>
+                <a className="navbar-brand ml-5" href="#header"><img src={logo} alt="My logo"/></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
