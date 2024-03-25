@@ -7,13 +7,13 @@ const Contact = () => {
     
     return (
         <div className='container' id='contact'>
-            <div className="d-flex justify-content-center align-items-center mb-4">
+            <div className="d-flex justify-content-center align-items-center p-4">
                 <h4>Let's talk<br /><img className='text-center' src={underlineB} alt="uderline"/></h4>
             </div>
             <div className='row'>
             <div className="col-lg-5 d-flex align-items-stretch">
                     
-                    <div className="mt-5">
+                    <div className="mt-2">
                         <h1>Get in touch</h1>
                         <p>Are you interested in my profile ?
                             Feel free to contact me via my social networks and my contact.
@@ -23,7 +23,7 @@ const Contact = () => {
                 <div className="col-lg-7 d-flex align-items-stretch">
                     
                     <div className="info">
-                        <h5>Join me on my social network</h5>
+                        <h5>Join me on my social networks</h5>
                         <div className='d-flex align-items-stretch f-wrap'>
                             <div className="adress mx-2">
                                 <h4><FaMapMarked /></h4>
