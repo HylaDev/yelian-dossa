@@ -4,6 +4,8 @@ import './Project.css';
 import ayikan from '../../Images/projects/ayikan.png';
 import yieldy from '../../Images/projects/yieldy.png';
 import sport from '../../Images/projects/sport.png';
+import Typewriter from 'typewriter-effect';
+
 
 class Projects extends Component {
     render(){
@@ -20,8 +22,15 @@ class Projects extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">Yieldy</h5>
                                 <p class="card-text text-justify">
-                                    Yieldy is a mobile app french Fintech for buying and selling cryptocurrencies. As a back-end developer at Cauris-Dev I developed the yieldy API with 
-                                    Django Rest Framework and wrote the documentation for this API.
+                                <Typewriter
+                                        options={{
+                                            strings: ["Yieldy is a mobile app french Fintech for buying and selling cryptocurrencies. As a back-end developer at Cauris-Dev I developed the yieldy API with Django Rest Framework and wrote the documentation for this API."],
+                                            autoStart: true,
+                                            delay: 50,
+                                            loop: true,
+                                            deleteSpeed:700000
+                                            
+                                        }}/>
                                 </p>
                             </div>
                         </div>
@@ -41,7 +50,17 @@ class Projects extends Component {
                                 <div class="card-body">
                                     <h5 class="card-title">Ayikan</h5>
                                     <p class="card-text text-justify">
-                                        Ayikan is an e-commerce application for online watch purchases made with Django-Oscar.
+                                    <Typewriter
+                                        options={{
+                                            strings: ["Ayikan is an e-commerce application for online watch purchases made with Django-Oscar."],
+                                            autoStart: true,
+                                            delay: 50,
+                                            loop: true,
+                                            deleteSpeed:700000
+                                            
+                                        }}
+                                    />
+                                        
                                     </p>
                                 </div>
                             </div>
@@ -62,7 +81,17 @@ class Projects extends Component {
                                 <div class="card-body">
                                     <h5 class="card-title">GOTALENTSPORT</h5>
                                     <p class="card-text text-justify">
-                                    GOTALENTSPORT is a personal project I'm working on. The aim of GOTALENTSPORT is to promote young Africans, and more specifically young Beninese, who have talent in a sporting discipline.
+                                        <Typewriter
+                                            options={{
+                                                strings: ["GOTALENTSPORT is a personal project I'm working on. The aim of GOTALENTSPORT is to promote young Africans, and more specifically young Beninese, who have talent in a sporting discipline."],
+                                                autoStart: true,
+                                                delay: 50,
+                                                loop: true,
+                                                deleteSpeed:700000
+                                                
+                                            }}
+                                        />
+                                    
                                     </p>
                                 </div>
                             </div>

@@ -1,6 +1,8 @@
 import React, { Component} from 'react';
 import underlineB from '../../Images/Double traits_noir.svg';
 import './experience.css';
+import Typewriter from 'typewriter-effect';
+
 
 class Experience extends Component {
     render(){
@@ -23,8 +25,16 @@ class Experience extends Component {
                                         <small>Jan 23 to Oct 23</small>
                                     </h3>
                                     <p className=''>
-                                        I developed web applications with Django/Python, created APIs with Django Rest Framework, and wrote API documentation. I also co-hosted demonstration sessions 
-                                        with a corporate client and performed unit tests to ensure code quality.
+                                        <Typewriter
+                                            options={{
+                                                strings: ["I developed web applications with Django/Python, created APIs with Django Rest Framework, and wrote API documentation. I also co-hosted demonstration sessions with a corporate client and performed unit tests to ensure code quality."],
+                                                autoStart: true,
+                                                delay: 50,
+                                                loop: true,
+                                                deleteSpeed:700000
+                                                
+                                            }}
+                                        />
                                     </p>
                                 </div>
                             </div>
@@ -39,8 +49,17 @@ class Experience extends Component {
                                         <small>Dec 22 to July 23</small>
                                     </h3>
                                     <p className=''>
-                                        I took part in running group information sessions to present the association's objectives and the schemes available to facilitate local or international mobility, while also co-facilitating pre-departure workshops for new civic service volunteers. 
-                                        I also ran language workshops in English and French for young people, and took an active part in radio broadcasts.
+                                    <Typewriter
+                                        options={{
+                                            strings: ["I took part in running group information sessions to present the association's objectives and the schemes available to facilitate local or international mobility, while also co-facilitating pre-departure workshops for new civic service volunteers. I also ran language workshops in English and French for young people, and took an active part in radio broadcasts."],
+                                            autoStart: true,
+                                            delay: 50,
+                                            loop: true,
+                                            deleteSpeed:700000
+                                            
+                                        }}
+                                    />
+                                        
                                     </p>
                                 </div>
                             </div>
@@ -61,8 +80,16 @@ class Experience extends Component {
                                         <small>March 2021 to Aug 2022</small>
                                     </h3>
                                     <p className=''>
-                                        As an intern, I developed the company's website, and also took charge of the back-end development with Django for a specific web application, 
-                                        as well as the deployment, maintenance management and testing of these applications.
+                                        <Typewriter
+                                            options={{
+                                                strings: ["As an intern, I developed the company's website, and also took charge of the back-end development with Django for a specific web application, as well as the deployment, maintenance management and testing of these applications.                                                "],
+                                                autoStart: true,
+                                                delay: 50,
+                                                loop: true,
+                                                deleteSpeed:700000
+                                                
+                                            }}
+                                        />
                                     </p>
                                 </div>
                             </div>
@@ -77,7 +104,17 @@ class Experience extends Component {
                                         <small>Feb 2022 to March 2022</small>
                                     </h3>
                                     <p className=''>
-                                        I developed and deployed an e-commerce site with Django-Oscar for RegArt
+                                        <Typewriter
+                                            options={{
+                                                strings: ["I developed and deployed an e-commerce site with Django-Oscar for RegArt."],
+                                                autoStart: true,
+                                                delay: 50,
+                                                loop: true,
+                                                deleteSpeed:700000
+                                                
+                                            }}
+                                        />
+                                        
                                     </p>
                                 </div>
                             </div>
