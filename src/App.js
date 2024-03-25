@@ -6,6 +6,7 @@ import Experience from './Components/Experiences/Experience';
 import Footer from './Components/Footer/Footer';
 import CursorAnim from './Components/CursorAnim';
 import Portfolio from './Components/Portofolio/Projects';
+import Contact from './Components/Contact/Contact';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Experience />
         <Portfolio />
+        <Contact />
         <Footer  />
         
     </div>
