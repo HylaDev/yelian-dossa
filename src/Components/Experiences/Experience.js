@@ -29,7 +29,7 @@ class Experience extends Component {
                                             options={{
                                                 strings: ["I developed web applications with Django/Python, created APIs with Django Rest Framework, and wrote API documentation. I also co-hosted demonstration sessions with a corporate client and performed unit tests to ensure code quality."],
                                                 autoStart: true,
-                                                delay: 50,
+                                                delay: 100,
                                                 loop: true,
                                                 deleteSpeed:700000
                                                 
@@ -53,7 +53,7 @@ class Experience extends Component {
                                         options={{
                                             strings: ["I took part in running group information sessions to present the association's objectives and the schemes available to facilitate local or international mobility, while also co-facilitating pre-departure workshops for new civic service volunteers. I also ran language workshops in English and French for young people, and took an active part in radio broadcasts."],
                                             autoStart: true,
-                                            delay: 50,
+                                            delay: 10,
                                             loop: true,
                                             deleteSpeed:700000
                                             
@@ -84,7 +84,7 @@ class Experience extends Component {
                                             options={{
                                                 strings: ["As an intern, I developed the company's website, and also took charge of the back-end development with Django for a specific web application, as well as the deployment, maintenance management and testing of these applications.                                                "],
                                                 autoStart: true,
-                                                delay: 50,
+                                                delay: 10,
                                                 loop: true,
                                                 deleteSpeed:700000
                                                 
@@ -108,7 +108,7 @@ class Experience extends Component {
                                             options={{
                                                 strings: ["I developed and deployed an e-commerce site with Django-Oscar for RegArt."],
                                                 autoStart: true,
-                                                delay: 50,
+                                                delay: 10,
                                                 loop: true,
                                                 deleteSpeed:700000
                                                 
