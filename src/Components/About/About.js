@@ -11,7 +11,6 @@ import htmlogo from '../../Images/technos/html5.svg';
 import csslogo from '../../Images/technos/css3.svg';
 import Marquee from "react-fast-marquee";
 import './About.css';
-import Typewriter from 'typewriter-effect';
 class About extends Component {
     render(){
         return (
@@ -23,15 +22,8 @@ class About extends Component {
                 <div className="row">
                     <div className="col-md-6">
                         <p className='text-justify'>
-                            <Typewriter options={{
-                                strings: ["I define myself as a full stack developer, but I'm much more back-end oriented. My mission is to turn challenges into opportunities, with a love for code, I specialize in creating engaging web applications. I'm also passionate about artificial intelligence and data analysis. "],
-                                autoStart: true,
-                                loop:true,
-                                delay:100,
-                                deleteSpeed:30000
-                            }
-                            }/>
-                            
+                            I define myself as a full stack developer, but I'm much more back-end oriented. My mission is to turn challenges into opportunities, with a love for code, I specialize in creating engaging web applications. 
+                            I'm also passionate about artificial intelligence and data analysis.
                         </p>
                     </div>
                     <div className="col-md-6">
