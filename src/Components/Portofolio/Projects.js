@@ -3,7 +3,7 @@ import underlineB from '../../Images/Double traits_blanc.svg';
 import './Project.css';
 import ayikan from '../../Images/projects/ayikan.png';
 import yieldy from '../../Images/projects/yieldy.png';
-import sport from '../../Images/projects/sport.png';
+import portofolio from '../../Images/projects/portofolio.png';
 
 
 class Projects extends Component {
@@ -11,7 +11,7 @@ class Projects extends Component {
         return (
             <div id='projects' className='container-fluid'>
                 <div className="d-flex justify-content-center align-items-center mb-4">
-                    <h4>Projects<br /><img className='text-center' src={underlineB} alt="uderline"/></h4>
+                    <h4>Projects I've worked on<br /><img className='text-center' src={underlineB} alt="uderline"/></h4>
                 </div>
                 <div className='row'>
                     <div className='col-md-4 my-2 cards p-1'>
@@ -29,10 +29,7 @@ class Projects extends Component {
                         </a>
                         {/*
                         <div id="technos">
-                            <img src={pythonlogo} alt="python"/>
-                            <img src={reactlogo} alt="react js"/>
-                            <img src={djangologo} alt="django"/>
-                            <img src={githublogo} alt="github"/>
+                            
                         </div>*/}
                     </div>
                     <div className='col-md-4 my-2 cards p-1 '>
@@ -49,32 +46,26 @@ class Projects extends Component {
                         </a>
                         {/*
                         <div id="technos">
-                            <img src={pythonlogo} alt="python"/>
-                            <img src={reactlogo} alt="react js"/>
-                            <img src={djangologo} alt="django"/>
-                            <img src={githublogo} alt="github"/>
+                            
                         </div>*/}
                     </div>
-                    
-                    <div className='col-md-4 my-2 cards p-1'>
-                        <a href='https://gotalentsport.netlify.app/' className='cards'>
-                            <div className="card overflow-scroll">
-                                <img src={sport} className="card-img-top" alt="..." />
+
+                    <div className='col-md-4 my-2 cards p-1 '>
+                        <a href='http://yelian.netlify.app/' target='self'>
+                            <div className="card">
+                                <img src={portofolio} className="card-img-top" alt="Portofolio home page" />
                                 <div class="card-body">
-                                    <h5 class="card-title">GOTALENTSPORT</h5>
+                                    <h5 class="card-title">My website</h5>
                                     <p class="card-text text-justify">
-                                        GOTALENTSPORT is a personal project I'm working on. The aim of GOTALENTSPORT is to promote young Africans, 
-                                        and more specifically young Beninese, who have talent in a sporting discipline.
+                                        My portofolio was created to increase my visibility and my search for a work-study placement. 
+                                        This project shows my skills in responsive web development and the different projects I've worked on. 
                                     </p>
                                 </div>
                             </div>
                         </a>
                         {/*
                         <div id="technos">
-                            <img src={pythonlogo} alt="python"/>
-                            <img src={reactlogo} alt="react js"/>
-                            <img src={djangologo} alt="django"/>
-                            <img src={githublogo} alt="github"/>
+                            
                         </div>*/}
                     </div>
                 </div>
