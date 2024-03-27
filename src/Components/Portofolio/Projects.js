@@ -3,7 +3,6 @@ import underlineB from '../../Images/Double traits_blanc.svg';
 import './Project.css';
 import ayikan from '../../Images/projects/ayikan.png';
 import yieldy from '../../Images/projects/yieldy.png';
-import sport from '../../Images/projects/sport.png';
 
 
 class Projects extends Component {
@@ -14,7 +13,7 @@ class Projects extends Component {
                     <h4>Projects<br /><img className='text-center' src={underlineB} alt="uderline"/></h4>
                 </div>
                 <div className='row'>
-                    <div className='col-md-4 my-2 cards p-1'>
+                    <div className='col-md-6 my-2 cards p-1'>
                         <a href='https://www.yieldy.fr/' target='blank' title='Cliquer ici'>
                         <div className="card">
                             <img src={yieldy} className="card-img-top" alt="..." />
@@ -29,13 +28,10 @@ class Projects extends Component {
                         </a>
                         {/*
                         <div id="technos">
-                            <img src={pythonlogo} alt="python"/>
-                            <img src={reactlogo} alt="react js"/>
-                            <img src={djangologo} alt="django"/>
-                            <img src={githublogo} alt="github"/>
+                            
                         </div>*/}
                     </div>
-                    <div className='col-md-4 my-2 cards p-1 '>
+                    <div className='col-md-6 my-2 cards p-1 '>
                         <a href='http://ayikan.com/' target='blank'>
                             <div className="card">
                                 <img src={ayikan} className="card-img-top" alt="..." />
@@ -49,32 +45,7 @@ class Projects extends Component {
                         </a>
                         {/*
                         <div id="technos">
-                            <img src={pythonlogo} alt="python"/>
-                            <img src={reactlogo} alt="react js"/>
-                            <img src={djangologo} alt="django"/>
-                            <img src={githublogo} alt="github"/>
-                        </div>*/}
-                    </div>
-                    
-                    <div className='col-md-4 my-2 cards p-1'>
-                        <a href='https://gotalentsport.netlify.app/' className='cards'>
-                            <div className="card overflow-scroll">
-                                <img src={sport} className="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <h5 class="card-title">GOTALENTSPORT</h5>
-                                    <p class="card-text text-justify">
-                                        GOTALENTSPORT is a personal project I'm working on. The aim of GOTALENTSPORT is to promote young Africans, 
-                                        and more specifically young Beninese, who have talent in a sporting discipline.
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                        {/*
-                        <div id="technos">
-                            <img src={pythonlogo} alt="python"/>
-                            <img src={reactlogo} alt="react js"/>
-                            <img src={djangologo} alt="django"/>
-                            <img src={githublogo} alt="github"/>
+                            
                         </div>*/}
                     </div>
                 </div>
