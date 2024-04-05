@@ -35,7 +35,7 @@ const Banner = (props) =>{
                                 </p>
                                 <div className=''>
                                     <a href="#contact" className='btn btn-secondary mx- m-1 p-2'>Contact me</a>
-                                    <a href="https://drive.google.com/file/d/1kv_z_vAgGYTSWdF4237cgCkSCKZAUGl-/view?usp=sharing" className='btn btn-outline-secondary m-1 p-2'>View Resume</a>
+                                    <a href="https://drive.google.com/file/d/1Epup-sbsQAvkK89dwOTx5Eyap6jPBKQe/view?usp=sharing" target="blank" className='btn btn-outline-secondary m-1 p-2'>View Resume</a>
                                 </div>
                             </div>
                         </div>
