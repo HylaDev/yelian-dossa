@@ -9,6 +9,7 @@ import btlogo from '../../Images/technos/skill-icons_bootstrap.svg';
 import jslogo from '../../Images/technos/logos_javascript.svg';
 import htmlogo from '../../Images/technos/html5.svg';
 import csslogo from '../../Images/technos/css3.svg';
+import djangoRest from '../../Images/technos/dj-rest.svg';
 import Marquee from "react-fast-marquee";
 import './About.css';
 class About extends Component {
@@ -38,6 +39,7 @@ class About extends Component {
                                 <img src={jslogo} alt="js"/>
                                 <img src={htmlogo} alt="html"/>
                                 <img src={csslogo} alt="css"/>
+                                <img src={djangoRest} width={120} alt="Django Rest"/>
                             </div>
                         </Marquee>
                     </div>

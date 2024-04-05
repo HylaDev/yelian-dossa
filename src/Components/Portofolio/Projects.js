@@ -27,10 +27,7 @@ class Projects extends Component {
                             </div>
                         </div>
                         </a>
-                        {/*
-                        <div id="technos">
-                            
-                        </div>*/}
+                        
                     </div>
                     <div className='col-md-4 my-2 cards p-1 '>
                         <a href='http://ayikan.com/' target='blank'>
