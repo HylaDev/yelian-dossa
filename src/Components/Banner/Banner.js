@@ -20,7 +20,6 @@ const Banner = (props) =>{
                                 <h1 className='text-gray'>Hello,</h1>
                                 <h1>I'm <span className='text-gray'>Yélian DOSSA</span></h1>
                                 <p>
-                                    
                                     I am a fullstack developper with {props.react}, {props.django} and {props.python}<br/>
                                     <Typewriter
                                         options={{
