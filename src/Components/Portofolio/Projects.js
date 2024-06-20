@@ -1,16 +1,9 @@
 import React, { Component} from 'react';
 import underlineB from '../../Images/Double traits_blanc.svg';
 import './Project.css';
-import ayikan from '../../Images/projects/ayikan.png';
 import yieldy from '../../Images/projects/yieldy.png';
 import portofolio from '../../Images/projects/portofolio.png';
 import archeoit from '../../Images/projects/homepage.png';
-import reactlogo from '../../Images/technos/vscode-icons_file-type-reactjs.svg';
-import githublogo from '../../Images/technos/mdi_github.svg';
-import btlogo from '../../Images/technos/skill-icons_bootstrap.svg';
-import jslogo from '../../Images/technos/logos_javascript.svg';
-import htmlogo from '../../Images/technos/html5.svg';
-import csslogo from '../../Images/technos/css3.svg';
 
 
 class Projects extends Component {
