@@ -1,7 +1,12 @@
 .experience{
     padding: 30px;
 }
-
+.text-decoration-underline{
+  text-decoration: underline !important;
+}
+.text-justify{
+  text-align: justify !important;
+}
 .timeline-wrapper {
     position: relative;
     padding: 22px 0;

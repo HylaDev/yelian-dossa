@@ -17,23 +17,22 @@ const Banner = (props) =>{
                             </div>
                             <div className='bar mx-3'></div>
                             <div className="welcome-text" id="welcome-text">
-                                <h1 className='text-gray'>Hello,</h1>
-                                <h1>I'm <span className='text-gray'>Yélian DOSSA</span></h1>
+                                <h1 className='text-gray'>Hi,</h1>
+                                <h1>Je suis <span className='text-gray'>Yélian DOSSA</span></h1>
                                 <p>
-                                    I am a fullstack developper with {props.react}, {props.django} and {props.python}<br/>
                                     <Typewriter
                                         options={{
-                                            strings: ["I'm specialize in web applications developpement."],
+                                            strings: [" Développeur Web Full Stack | No-Code | DevOps | En recherche d'alternance"],
                                             autoStart: true,
                                             delay: 50,
                                             loop: true,
-                                            deleteSpeed:700000
+                                            deleteSpeed:7000000
                                             
                                         }}
                                     />
                                 </p>
                                 <div className=''>
-                                    <a href="#contact" className='btn btn-secondary mx- m-1 p-2'>Contact me</a>
+                                    <a href="#contact" className='btn btn-secondary mx- m-1 p-2'>Restons en contact 📲 </a>
                                 </div>
                             </div>
                         </div>

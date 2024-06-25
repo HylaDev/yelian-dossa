@@ -17,14 +17,15 @@ class About extends Component {
         return (
             <div className="about p-5" id='about'>
                 <div className="pb-5 d-flex justify-content-center align-items-center">
-                <h4 className=''>What's about me ? <br /><img src={uderline} alt="uderline"/></h4>
+                <h4 className=''>À propos de moi 😀<br /><img src={uderline} alt="uderline"/></h4>
                 </div>
                 
                 <div className="row">
                     <div className="col-md-6">
                         <p className='text-justify'>
-                            I define myself as a full stack developer, but I'm much more back-end oriented. My mission is to turn challenges into opportunities, with a love for code, I specialize in creating engaging web applications. 
-                            I'm also passionate about artificial intelligence and data analysis.
+                            Je me définis comme un développeur full stack, mais je suis beaucoup plus orienté back-end. 
+                            Ma mission est de transformer les défis en opportunités, avec un amour pour le code, je me spécialise dans la création d'applications web engageantes. 
+                            Je suis également passionné par l'intelligence artificielle 👾 🤖.
                         </p>
                     </div>
                     <div className="col-md-6">

@@ -15,14 +15,14 @@ class NavBar extends Component {
                     <ul className="navbar-nav mx-auto">
                         
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">About me </a>
+                            <a className="nav-link" href="#about">À propos de moi </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#experience">My experiences</a>
+                            <a className="nav-link" href="#experience">Mon expérience</a>
                         </li>
                         
                         <li className="nav-item">
-                            <a className="nav-link" href="#projects">Recents projects</a>
+                            <a className="nav-link" href="#projects">Projets récents</a>
                         </li>
                         {/*
                         <li className="nav-item">

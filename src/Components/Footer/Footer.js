@@ -10,7 +10,7 @@ class Footer extends Component {
                     <span className='icon'><a href='https://www.linkedin.com/in/y%C3%A9lian-ernest-dossa/' target='blank'><FaLinkedinIn /></a></span>
                     <span className='icon mx-3'><a href='https://github.com/HylaDev' target='blank'><FaGithub /></a></span>
                 </div>
-                <p> Made with <span className='heart'>♡</span> by me</p>
+                <p> Réalisé avec <span className='heart'>♡</span> par moi</p>
             </div>
         )
     }

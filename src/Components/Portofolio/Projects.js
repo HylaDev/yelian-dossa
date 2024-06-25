@@ -11,7 +11,7 @@ class Projects extends Component {
         return (
             <div id='projects' className='container-fluid'>
                 <div className="d-flex justify-content-center align-items-center mb-4">
-                    <h4>Projects I've worked on<br /><img className='text-center' src={underlineB} alt="uderline"/></h4>
+                    <h4>Projets Récents<br /><img className='text-center' src={underlineB} alt="uderline"/></h4>
                 </div>
                 <div className='row'>
                     <div className='col-md-4 my-2 cards p-1'>
@@ -21,12 +21,13 @@ class Projects extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">ArcheoIT</h5>
                                 <p class="card-text text-justify">
-                                    ArcheoIT is a school project whose aim was to create a showcase site for an 
-                                    association specializing in archaeology.  
+                                    ArcheoIT est un projet scolaire dont l'objectif était de créer un site vitrine pour 
+                                    une association spécialisée dans l'archéologie. Le site 
+                                    présente les différentes activités de l'association et leurs découvertes.  
                                 </p>
                                 <div id="">
-                                    <h3 class="">Technologies used</h3>
-                                    <p class="card-title"><b>Native PHP</b> - <b>Bootstrap</b> - <b>HTML</b> - <b>CSS</b> - <b>MySQL</b> </p>
+                                    <h3 class="">Technologies utilisées</h3>
+                                    <p class="card-title"><b>PHP Natif</b> - <b>Bootstrap</b> - <b>HTML</b> - <b>CSS</b> - <b>MySQL</b> </p>
                                 </div>
                             </div>
                         </div>
@@ -40,12 +41,12 @@ class Projects extends Component {
                                 <div class="card-body">
                                     <h5 class="card-title">My website</h5>
                                     <p class="card-text text-justify">
-                                        My portofolio was created to increase my visibility and my search for a work-study placement. 
-                                        This project shows my skills in responsive web development and the different projects I've worked on. 
+                                        Mon portofolio a été créé pour augmenter ma visibilité et ma recherche d'alternance. 
+                                        Ce projet montre mes compétences en développement web responsive et les différents projets sur lesquels j'ai travaillé. 
                                     </p>
                                     <div id="">
-                                        <h3 class="">Technologies used</h3>
-                                        <p class="card-title"><b>React</b> - <b>Bootstrap</b> - <b>HTML</b> - <b>CSS</b> </p>
+                                        <h3 class="">Technologies utilisées</h3>
+                                        <p class="card-title"><b>React</b> - <b>Bootstrap</b> - <b>HTML</b> - <b>CSS</b> - <b>SonarCloud</b> - <b>Netlify</b>  </p>
                                     </div>
                                 </div>
                             </div>
@@ -59,11 +60,11 @@ class Projects extends Component {
                             <div class="card-body">
                                 <h5 class="card-title">Yieldy</h5>
                                 <p class="card-text text-justify">
-                                    Yieldy is a mobile app french Fintech for buying and selling cryptocurrencies. As a back-end developer at Cauris-Dev 
-                                    I developed the yieldy API with Django Rest Framework and wrote the documentation for this API.
+                                Yieldy est une application mobile fintech française pour l'achat et la vente de crypto-monnaies et d'actions. En tant que développeur back-end chez Cauris-Dev, 
+                                j'ai développé l'API de Yieldy avec Django Rest Framework et j'ai écrit la documentation de l'API.
                                 </p>
                                 <div id="">
-                                    <h3 class="">Technologies used</h3>
+                                    <h3 class="">Technologies utilisées</h3>
                                     <p class="card-title"><b>Django</b> - <b>Django Rest Framework</b> - <b>Postman</b> - <b>Python</b> - <b>PostgreSQL</b></p>
                                 </div>
                             </div>
