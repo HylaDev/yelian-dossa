@@ -16,14 +16,14 @@ class About extends Component {
     render(){
         return (
             <div className="about p-5" id='about'>
-                <div className="pb-5 d-flex justify-content-center align-items-center">
+                <div className="pb-3 d-flex justify-content-center align-items-center">
                 <h4 className=''>À propos de moi 😀<br /><img src={uderline} alt="uderline"/></h4>
                 </div>
                 
                 <div className="row">
                     <div className="col-md-6">
                         <p className='text-justify'>
-                            Je me définis comme un développeur full stack, avec une forte expertise en back-end 🖥️. 
+                            Je me définis comme un développeur full stack, avec une bonne expertise en back-end 🖥️. 
                            Je m'efforce de transformer les défis techniques en opportunités innovantes 🚀. Mon amour pour le code ❤️ se 
                             reflète dans la création d'applications web engageantes, responsives et performantes 🌐.
 
