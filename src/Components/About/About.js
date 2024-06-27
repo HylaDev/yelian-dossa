@@ -23,9 +23,16 @@ class About extends Component {
                 <div className="row">
                     <div className="col-md-6">
                         <p className='text-justify'>
-                            Je me définis comme un développeur full stack, mais je suis beaucoup plus orienté back-end. 
-                            Ma mission est de transformer les défis en opportunités, avec un amour pour le code, je me spécialise dans la création d'applications web engageantes. 
-                            Je suis également passionné par l'intelligence artificielle 👾 🤖.
+                            Je me définis comme un développeur full stack, avec une forte expertise en back-end 🖥️. 
+                           Je m'efforce de transformer les défis techniques en opportunités innovantes 🚀. Mon amour pour le code ❤️ se 
+                            reflète dans la création d'applications web engageantes, responsives et performantes 🌐.
+
+                        </p>
+                        <p className='text-justify'>
+                        En plus de mes compétences en développement traditionnel, j'explore également les approches low code et no code 📱🔧 
+                        pour offrir des solutions rapides et efficaces ⚡. 
+                        Que ce soit pour des projets complexes d'IA 🤖 ou des solutions simples et intuitives 🧩, 
+                        je suis prêt à relever tous les défis 💪.
                         </p>
                     </div>
                     <div className="col-md-6">
