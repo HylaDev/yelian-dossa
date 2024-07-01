@@ -13,24 +13,113 @@
   text-decoration: none;
   
 }
-#projects .card img{
-  width: auto;
+
+
+.card_item {
+  -ms-flex-preferred-size: calc(33.33333% - 30px);
+  flex-basis: calc(33.33333% - 30px);
+  margin: 0 15px 30px;
+  overflow: hidden;
+  border-radius: 28px;
 }
-#projects .card{
-  color: var(--dark-color);
-  height: 370px;
-  overflow-y: auto;
-  border: none;
-  border-radius: 5px;
-  
+.project-link {
+  display: block;
+  padding: 30px 20px;
+  background-color: var(--white-color);
+
+  overflow: hidden;
+
+  position: relative;
+}
+.project-link:hover,
+.project-link:hover .card-technos,.project-link:hover .card-project-title{
+  text-decoration: none;
+  color: var(--white-color) ;
+}
+.project-link:hover .card-item_bg {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+.card-project-title {
+  min-height: 8px;
+  margin: 0 0 25px;
+
+  overflow: hidden;
+
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--gray-color);
+
+  z-index: 2;
+  position: relative;
+}
+.card-technos {
+  font-size: 18px;
+  color: #FFF;
+
+  z-index: 2;
+  position: relative;
+}
+.card-technos {
+  font-weight: bold;
+  color: var(--gray-color);
+
+  -webkit-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease
+}
+.card-item_bg {
+  height: 128px;
+  width: 128px;
+  background-color: var(--gray-color);
+
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+
+  border-radius: 50%;
+
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
-#projects .cards:hover{
-  box-shadow: 4px 4px 4px -4px rgba(80, 80, 80, 0.8),
-  6px 6px 6px -4px rgba(255, 250, 250, 0.9);
+
+
+
+@media only screen and (max-width: 979px) {
+  .card_item {
+    -ms-flex-preferred-size: calc(50% - 30px);
+    flex-basis: calc(50% - 30px);
+  }
+  .card-project-title {
+    font-size: 24px;
+  }
 }
-#projects #technos{
-  display: flex;
-  justify-content: space-around;
-  padding: 30px;
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+@media only screen and (max-width: 639px) {
+  .card_item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .card-project-title {
+    min-height: 72px;
+    line-height: 1;
+
+    font-size: 24px;
+  }
+  .project-link {
+    padding: 22px 40px;
+  }
+  .card-technos {
+    font-size: 16px;
+  }
 }
