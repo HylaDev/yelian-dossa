@@ -13,6 +13,9 @@
   text-decoration: none;
   
 }
+.fs{
+  font-size: 18px !important;
+}
 
 
 .card_item {
@@ -22,6 +25,7 @@
   overflow: hidden;
   border-radius: 28px;
 }
+
 .project-link {
   display: block;
   padding: 30px 20px;
@@ -36,11 +40,13 @@
   text-decoration: none;
   color: var(--white-color) ;
 }
+
 .project-link:hover .card-item_bg {
   -webkit-transform: scale(10);
   -ms-transform: scale(10);
   transform: scale(10);
 }
+
 .card-project-title {
   min-height: 8px;
   margin: 0 0 25px;
@@ -48,14 +54,14 @@
   overflow: hidden;
 
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   color: var(--gray-color);
 
   z-index: 2;
   position: relative;
 }
 .card-technos {
-  font-size: 18px;
+  font-size: 15px;
   color: #FFF;
 
   z-index: 2;
