@@ -22,7 +22,7 @@ const Banner = (props) =>{
                                 <p>
                                     <Typewriter
                                         options={{
-                                            strings: [" Développeur Web Full Stack | No-Code | DevOps | En recherche d'alternance"],
+                                            strings: [" Développeur Web Full Stack | No-Code | Java | Python "],
                                             autoStart: true,
                                             delay: 50,
                                             loop: true,
