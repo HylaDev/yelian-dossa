@@ -84,7 +84,7 @@ class Projects extends Component {
                     </div>
                     <div className="col-md-4 my-2 p-1">
                         <div class="card_item">
-                            <a href="https://gotalentsport.netlify.app/" target='blank' class="project-link">
+                            <a href="https://tech-x.netlify.app/" target='blank' class="project-link">
                                 <div class="card-item_bg"></div>
 
                                 <div class="card-project-title d-flex">
