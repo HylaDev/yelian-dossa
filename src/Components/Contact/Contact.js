@@ -31,10 +31,7 @@ const Contact = () => {
                                 <h4><FaEnvelope /></h4>
                                 <p>ernestdossa.9@gmail.com</p>
                             </div>
-                            <div className="phone mx-2">
-                                <h4><FaPhone /></h4>
-                                <p>+33 745-492-396</p>
-                            </div>
+                         
                         </div>
                         <div className="d-flex">
                             <div className="">
